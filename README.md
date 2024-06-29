@@ -1,10 +1,10 @@
 # industrial-big-data_YOLOV10
 
 ---
-created: {{date}} {{time}}
-modified: 2024/6/29 16:00
-author: 魏敬斌
-tags: 本科课业
+created: 2024/6/29 15:27 <\br>
+modified: 2024/6/29 16:00 <\br>
+author: 魏敬斌 <br>
+tags: 本科课业 <\br>
 ---
 
 task:工业大数据课程作业，使用yolov10模型进行SMT检测
