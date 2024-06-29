@@ -16,12 +16,14 @@ tags: 本科课业
 ```bash
 yolo detect train data=smt.yaml model=yolov10n.yaml epochs=50 batch=64 imgsz=320 device=0
 ```
+
 **验证指令**
 ```
 yolo detect val model=D:\Users\lostW\Documents\09PythonProject\SMT\yolov10\runs\detect\train14\weights\best.pt data=smt.yaml batch=128 conf=0.485
 ```
 - conf可选，第一次验证建议使用默认值
 - 模型权重路径应更改为自己的pathtobest.pt
+
 **推理指令**
 ```
 yolo detect predict model=D:\Users\lostW\Documents\09PythonProject\SMT\yolov10\runs\detect\train14\weights\best.pt source=D:\Users\lostW\Documents\09PythonProject\SMT\datasets\pred\b\b1.jpg conf=0.485 imgsz=320/1536/1600/1440
