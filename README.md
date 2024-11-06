@@ -3,7 +3,7 @@
 ---
 created: 2024/6/29 15:27 <br>
 modified: 2024/6/29 16:00 <br>
-author: 魏敬斌 <br>
+author: jingbin.Wei <br>
 tags: 本科课业 
 ---
 
